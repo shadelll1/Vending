@@ -18,7 +18,14 @@
 				<xr:Ref>StdPicture.Favorites</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СостоянияАвтоматов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ЕдиницыХранения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыБункеров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ПричиныСписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыСервисныхРабот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Локации</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects/>
 	</Subsystem>

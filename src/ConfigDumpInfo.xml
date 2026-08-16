@@ -1,19 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="Catalog.Локации" id="34a7fb5f-ee7c-4805-9996-bd71466948fa" configVersion="fe0c77ee919f9042911b3082394c889200000000">
+			<Metadata name="Catalog.Локации.Attribute.КонтактноеЛицо" id="4c8ad135-2f22-4f80-bbcd-16d378a607af"/>
+			<Metadata name="Catalog.Локации.Attribute.Телефон" id="76964f3c-9cdd-4be8-bfb2-821c9b4c4f37"/>
+			<Metadata name="Catalog.Локации.Attribute.ГрафикДоступа" id="86149763-3b41-45b7-97ef-539b938f7c57"/>
+			<Metadata name="Catalog.Локации.Attribute.Адрес" id="bf880afa-bcab-4920-ac1c-507ff42c864d"/>
+		</Metadata>
 		<Metadata name="CommonModule.ВендингВызовСервера" id="cc40c89a-af6a-41ed-ab36-3420e5dd908c" configVersion="47c050ab1aae564a8bc8a99983737ddf00000000"/>
 		<Metadata name="CommonModule.ВендингКлиент" id="a111a787-2cfa-4992-a94a-ee0255e1ba02" configVersion="f97acd9410372e479cf89f80bdcb71e300000000"/>
 		<Metadata name="CommonModule.ВендингКлиентСервер" id="54d91386-8e19-430c-bf90-87470836b0f7" configVersion="a2622780192dee4c982ce37bf207550300000000"/>
 		<Metadata name="CommonModule.ВендингПовтИсп" id="fcb7db72-841c-4cb5-a7ae-611c5deea0ec" configVersion="4946cf94b9be664999767274aab8a5ca00000000"/>
 		<Metadata name="CommonModule.ВендингПривилегированный" id="fddef74d-f799-42fb-8e6d-f4cd3cdbdbfc" configVersion="8ede8c65e641164b8182de5d4851abdf00000000"/>
 		<Metadata name="CommonModule.ВендингСервер" id="5e978f38-e417-4703-80bd-67be9fe77ada" configVersion="9b65238921eee0499bd7b8dda0b6a1c700000000"/>
-		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="9ae9d369acc3de48b9a07bb70dfb7c9c00000000"/>
+		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="f51e4dc1e153654fb25d9ff07037b4f100000000"/>
 		<Metadata name="Configuration.ВендингОператор.CommandInterface" id="da2ca6a7-4a39-4b1a-8ac7-77ea61cc9293.a" configVersion="f8b0e2caa2104a40ba4d8fb6f03645b100000000"/>
+		<Metadata name="Enum.ВидыСервисныхРабот" id="5880cfc8-8f32-426e-9aae-a5d26221f6ce" configVersion="0443836d89958e44b5f7220fc8daf86600000000">
+			<Metadata name="Enum.ВидыСервисныхРабот.EnumValue.ПлановоеТО" id="44a94bbb-3e91-4e4a-847c-0c48eddf6f0c"/>
+			<Metadata name="Enum.ВидыСервисныхРабот.EnumValue.ЗаменаУзла" id="81477b52-ea03-4b62-b168-5e9b51dda754"/>
+			<Metadata name="Enum.ВидыСервисныхРабот.EnumValue.Ремонт" id="acca7758-9e7a-4a2a-ac65-1e0ee72daa04"/>
+			<Metadata name="Enum.ВидыСервисныхРабот.EnumValue.Чистка" id="bd529f28-d2d8-4972-8ef3-c39153adbf08"/>
+		</Metadata>
+		<Metadata name="Enum.ЕдиницыХранения" id="8c74aee4-303b-4634-97b6-5faf03d350fd" configVersion="03940dcb1ff9954fb0e0e8da4fe0b9fd00000000">
+			<Metadata name="Enum.ЕдиницыХранения.EnumValue.Грамм" id="3f5cc50f-4825-4c57-9a32-dff29e80291e"/>
+			<Metadata name="Enum.ЕдиницыХранения.EnumValue.Миллилитр" id="682cc2a1-6307-46f1-ad1d-4e22a2bf1f32"/>
+			<Metadata name="Enum.ЕдиницыХранения.EnumValue.Штука" id="88035b86-4d21-42ea-af82-9a914e15b745"/>
+		</Metadata>
+		<Metadata name="Enum.ПричиныСписания" id="12557923-ee20-439d-97aa-8449b4302b41" configVersion="012eecf5e5c02c4299c18dabc47aa83f00000000">
+			<Metadata name="Enum.ПричиныСписания.EnumValue.СбойОборудования" id="683b9f8d-47b1-4e48-b1e8-0b058cdf470a"/>
+			<Metadata name="Enum.ПричиныСписания.EnumValue.Брак" id="a261a8e8-74a1-41c7-b493-40e45eb2fd39"/>
+			<Metadata name="Enum.ПричиныСписания.EnumValue.ИстекСрокГодности" id="c667c900-fb58-4bd3-b9e0-3e4c16bd954a"/>
+			<Metadata name="Enum.ПричиныСписания.EnumValue.ПотериПриЗагрузке" id="f5968d5f-1ea4-4748-a38b-c9baa76b0f1d"/>
+		</Metadata>
+		<Metadata name="Enum.СостоянияАвтоматов" id="34af7e3f-61ee-41c9-b437-f330f09ba4c2" configVersion="086375461fe37540bbbd4b48ca490b5000000000">
+			<Metadata name="Enum.СостоянияАвтоматов.EnumValue.Работает" id="1c3cc76a-40de-45a0-8a34-93aa4028368c"/>
+			<Metadata name="Enum.СостоянияАвтоматов.EnumValue.Демонтирован" id="20c472a1-59f4-49d9-80d4-5ec194dd43a8"/>
+			<Metadata name="Enum.СостоянияАвтоматов.EnumValue.ВРемонте" id="590fc6dd-3a02-4285-957f-e27d66f7d1c0"/>
+			<Metadata name="Enum.СостоянияАвтоматов.EnumValue.НаОбслуживании" id="c49aaff5-4548-432e-9cba-153f5fd2f8e7"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыБункеров" id="7aab1588-80a0-44e7-8562-05aa02fd8dde" configVersion="2285add547844a409c0d7fbe9bc90bfb00000000">
+			<Metadata name="Enum.ТипыБункеров.EnumValue.Водяной" id="161801a2-c1f3-4da5-b37e-3b2f4cc40931"/>
+			<Metadata name="Enum.ТипыБункеров.EnumValue.Штучный" id="78273258-42c5-415c-bfb2-9dad9cc49f90"/>
+			<Metadata name="Enum.ТипыБункеров.EnumValue.Зерновой" id="da1f10b2-3bc4-4417-8f4c-521f970c02f9"/>
+			<Metadata name="Enum.ТипыБункеров.EnumValue.Порошковый" id="ee62d724-8769-41a0-8710-ce60641cc226"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="87d20b7a-5b6f-4a64-b053-448b51cd2bd6" configVersion="a299007a6f9e874cb1a9dd6c4e4def3400000000"/>
 		<Metadata name="Subsystem.Администрирование" id="b8166754-10dd-4703-980a-e8a31fd8da74" configVersion="1d9c3edd95479f4199ef15a709e1997900000000"/>
 		<Metadata name="Subsystem.Деньги" id="2f838e6a-f724-43b0-8649-d85cb66e7ef7" configVersion="741eb19550d3d44eb31e0b29c808278000000000"/>
 		<Metadata name="Subsystem.Логистика" id="ef73e555-e30b-4f37-bfab-be6b7092e569" configVersion="733754ec2e9a224284187d4a2a1f6a2a00000000"/>
-		<Metadata name="Subsystem.НСИ" id="9b921e25-148a-4d3c-b2da-23f839970bda" configVersion="a7de98516caea94c86fcce717b5f27f900000000"/>
+		<Metadata name="Subsystem.НСИ" id="9b921e25-148a-4d3c-b2da-23f839970bda" configVersion="9f4616df026c944087869c93878115e300000000"/>
 		<Metadata name="Subsystem.Отчеты" id="d9ef46dc-fe40-4663-9594-c3191b8df5cf" configVersion="d0eb2ddd5773d4408dfbe341e991877500000000"/>
 		<Metadata name="Subsystem.Продажи" id="04c0ee7f-9edd-495a-8c26-21b3f5615fc6" configVersion="4a808eec6211e441a7655e31f01438c300000000"/>
 		<Metadata name="Subsystem.Сервис" id="fd3ec8fd-a33f-4f0a-90fc-64d230d85e09" configVersion="341f4f5055d44f4a8c51cea29421a68100000000"/>

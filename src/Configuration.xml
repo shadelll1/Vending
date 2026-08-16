@@ -273,6 +273,12 @@
 			<CommonModule>ВендингКлиентСервер</CommonModule>
 			<CommonModule>ВендингПривилегированный</CommonModule>
 			<CommonModule>ВендингПовтИсп</CommonModule>
+			<Catalog>Локации</Catalog>
+			<Enum>СостоянияАвтоматов</Enum>
+			<Enum>ЕдиницыХранения</Enum>
+			<Enum>ТипыБункеров</Enum>
+			<Enum>ПричиныСписания</Enum>
+			<Enum>ВидыСервисныхРабот</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
