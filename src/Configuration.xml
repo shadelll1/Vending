@@ -260,9 +260,19 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Catalog>Тест</Catalog>
-			<Catalog>тест2</Catalog>
-			<Catalog>Справочник1</Catalog>
+			<Subsystem>НСИ</Subsystem>
+			<Subsystem>Логистика</Subsystem>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Деньги</Subsystem>
+			<Subsystem>Сервис</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
+			<CommonModule>ВендингСервер</CommonModule>
+			<CommonModule>ВендингВызовСервера</CommonModule>
+			<CommonModule>ВендингКлиент</CommonModule>
+			<CommonModule>ВендингКлиентСервер</CommonModule>
+			<CommonModule>ВендингПривилегированный</CommonModule>
+			<CommonModule>ВендингПовтИсп</CommonModule>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,13 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Справочник1" id="a2a5e48f-cfa2-4bbd-86a2-bb19f35d18a0" configVersion="d6c2085513889f40944c36f838450e1d00000000"/>
-		<Metadata name="Catalog.Тест" id="df759fe4-b724-4da2-a99e-60c21f3cdfbc" configVersion="3cc805da69a79649a0e0c8e414c83a1300000000"/>
-		<Metadata name="Catalog.Тест.Form.ФормаЭлемента" id="d1cdd76f-a900-47a1-9376-32897dfefec5" configVersion="77de7956fdc7fe42b316b9a551369a9000000000"/>
-		<Metadata name="Catalog.Тест.Form.ФормаЭлемента.Form" id="d1cdd76f-a900-47a1-9376-32897dfefec5.0" configVersion="483fc91a9b2dd64199b6ee6554f3840f00000000"/>
-		<Metadata name="Catalog.Тест.ObjectModule" id="df759fe4-b724-4da2-a99e-60c21f3cdfbc.0" configVersion="79ffe3f24c591747904cfbdee5190f5e00000000"/>
-		<Metadata name="Catalog.тест2" id="36b8c6e4-4e5a-4828-8d03-a704e2756cd0" configVersion="c7a5ae3d36cee44cb45cc0691a4769e500000000"/>
-		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="2d327d5683c87f42a5bb4d3b46774dc100000000"/>
+		<Metadata name="CommonModule.ВендингВызовСервера" id="cc40c89a-af6a-41ed-ab36-3420e5dd908c" configVersion="47c050ab1aae564a8bc8a99983737ddf00000000"/>
+		<Metadata name="CommonModule.ВендингКлиент" id="a111a787-2cfa-4992-a94a-ee0255e1ba02" configVersion="f97acd9410372e479cf89f80bdcb71e300000000"/>
+		<Metadata name="CommonModule.ВендингКлиентСервер" id="54d91386-8e19-430c-bf90-87470836b0f7" configVersion="a2622780192dee4c982ce37bf207550300000000"/>
+		<Metadata name="CommonModule.ВендингПовтИсп" id="fcb7db72-841c-4cb5-a7ae-611c5deea0ec" configVersion="4946cf94b9be664999767274aab8a5ca00000000"/>
+		<Metadata name="CommonModule.ВендингПривилегированный" id="fddef74d-f799-42fb-8e6d-f4cd3cdbdbfc" configVersion="8ede8c65e641164b8182de5d4851abdf00000000"/>
+		<Metadata name="CommonModule.ВендингСервер" id="5e978f38-e417-4703-80bd-67be9fe77ada" configVersion="9b65238921eee0499bd7b8dda0b6a1c700000000"/>
+		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="9ae9d369acc3de48b9a07bb70dfb7c9c00000000"/>
+		<Metadata name="Configuration.ВендингОператор.CommandInterface" id="da2ca6a7-4a39-4b1a-8ac7-77ea61cc9293.a" configVersion="f8b0e2caa2104a40ba4d8fb6f03645b100000000"/>
 		<Metadata name="Language.Русский" id="87d20b7a-5b6f-4a64-b053-448b51cd2bd6" configVersion="a299007a6f9e874cb1a9dd6c4e4def3400000000"/>
+		<Metadata name="Subsystem.Администрирование" id="b8166754-10dd-4703-980a-e8a31fd8da74" configVersion="1d9c3edd95479f4199ef15a709e1997900000000"/>
+		<Metadata name="Subsystem.Деньги" id="2f838e6a-f724-43b0-8649-d85cb66e7ef7" configVersion="741eb19550d3d44eb31e0b29c808278000000000"/>
+		<Metadata name="Subsystem.Логистика" id="ef73e555-e30b-4f37-bfab-be6b7092e569" configVersion="733754ec2e9a224284187d4a2a1f6a2a00000000"/>
+		<Metadata name="Subsystem.НСИ" id="9b921e25-148a-4d3c-b2da-23f839970bda" configVersion="a7de98516caea94c86fcce717b5f27f900000000"/>
+		<Metadata name="Subsystem.Отчеты" id="d9ef46dc-fe40-4663-9594-c3191b8df5cf" configVersion="d0eb2ddd5773d4408dfbe341e991877500000000"/>
+		<Metadata name="Subsystem.Продажи" id="04c0ee7f-9edd-495a-8c26-21b3f5615fc6" configVersion="4a808eec6211e441a7655e31f01438c300000000"/>
+		<Metadata name="Subsystem.Сервис" id="fd3ec8fd-a33f-4f0a-90fc-64d230d85e09" configVersion="341f4f5055d44f4a8c51cea29421a68100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
