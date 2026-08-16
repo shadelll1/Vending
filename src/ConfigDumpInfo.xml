@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Справочник1" id="a2a5e48f-cfa2-4bbd-86a2-bb19f35d18a0" configVersion="d6c2085513889f40944c36f838450e1d00000000"/>
+		<Metadata name="Catalog.Тест" id="df759fe4-b724-4da2-a99e-60c21f3cdfbc" configVersion="3cc805da69a79649a0e0c8e414c83a1300000000"/>
+		<Metadata name="Catalog.Тест.Form.ФормаЭлемента" id="d1cdd76f-a900-47a1-9376-32897dfefec5" configVersion="77de7956fdc7fe42b316b9a551369a9000000000"/>
+		<Metadata name="Catalog.Тест.Form.ФормаЭлемента.Form" id="d1cdd76f-a900-47a1-9376-32897dfefec5.0" configVersion="483fc91a9b2dd64199b6ee6554f3840f00000000"/>
+		<Metadata name="Catalog.Тест.ObjectModule" id="df759fe4-b724-4da2-a99e-60c21f3cdfbc.0" configVersion="79ffe3f24c591747904cfbdee5190f5e00000000"/>
+		<Metadata name="Catalog.тест2" id="36b8c6e4-4e5a-4828-8d03-a704e2756cd0" configVersion="c7a5ae3d36cee44cb45cc0691a4769e500000000"/>
+		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="2d327d5683c87f42a5bb4d3b46774dc100000000"/>
+		<Metadata name="Language.Русский" id="87d20b7a-5b6f-4a64-b053-448b51cd2bd6" configVersion="a299007a6f9e874cb1a9dd6c4e4def3400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
