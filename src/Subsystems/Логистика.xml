@@ -21,6 +21,9 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Автоматы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПоказанияСчетчиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНаСкладе</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеИнгредиентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Заглушка</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

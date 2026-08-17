@@ -293,6 +293,8 @@
 			<Catalog>МодельАвтоматов</Catalog>
 			<Catalog>ЗначенияСвойств</Catalog>
 			<Document>УстановкаЦенНапитков</Document>
+			<Document>ПоступлениеИнгредиентов</Document>
+			<Document>Заглушка</Document>
 			<Enum>СостоянияАвтоматов</Enum>
 			<Enum>ЕдиницыХранения</Enum>
 			<Enum>ТипыБункеров</Enum>
@@ -304,6 +306,7 @@
 			<InformationRegister>ЦеныНапитков</InformationRegister>
 			<InformationRegister>ПоказанияСчетчиков</InformationRegister>
 			<InformationRegister>ЗначениеСвойствНоменклатуры</InformationRegister>
+			<AccumulationRegister>ОстаткиНаСкладе</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваНоменклатуры</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
