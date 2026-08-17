@@ -295,6 +295,7 @@
 			<Document>УстановкаЦенНапитков</Document>
 			<Document>ПоступлениеИнгредиентов</Document>
 			<Document>Заглушка</Document>
+			<Document>ЗагрузкаАвтомата</Document>
 			<Enum>СостоянияАвтоматов</Enum>
 			<Enum>ЕдиницыХранения</Enum>
 			<Enum>ТипыБункеров</Enum>
@@ -307,6 +308,7 @@
 			<InformationRegister>ПоказанияСчетчиков</InformationRegister>
 			<InformationRegister>ЗначениеСвойствНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиНаСкладе</AccumulationRegister>
+			<AccumulationRegister>ОстаткиВАвтоматах</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваНоменклатуры</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
