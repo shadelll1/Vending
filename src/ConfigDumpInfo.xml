@@ -37,11 +37,13 @@
 			<Metadata name="Catalog.МодельАвтоматов.Attribute.Производитель" id="91320e30-9055-4adc-a9d2-328766249ace"/>
 			<Metadata name="Catalog.МодельАвтоматов.Attribute.ПоддержкаБезнала" id="f7d3ef45-e27d-426b-88ba-206dd0c33cc8"/>
 		</Metadata>
-		<Metadata name="Catalog.Напитки" id="1fe2e6f9-677c-434d-a797-4df23e1e1049" configVersion="40556a12134ef24885b6428b7df284a400000000">
+		<Metadata name="Catalog.Напитки" id="1fe2e6f9-677c-434d-a797-4df23e1e1049" configVersion="9beed8427f035d49b60f1a039a063a9600000000">
 			<Metadata name="Catalog.Напитки.Attribute.КодНаАвтомате" id="7431dd1e-016a-4c07-8e4f-d5e0e6675176"/>
 			<Metadata name="Catalog.Напитки.Attribute.Объем" id="a9d3995f-c2a0-45fc-9b56-eb571ad83d87"/>
 			<Metadata name="Catalog.Напитки.Attribute.Категория" id="c172b45f-690a-425d-950a-245a71cc651c"/>
 		</Metadata>
+		<Metadata name="Catalog.Напитки.Form.ФормаЭлемента" id="53518fad-6e6e-451e-832d-6a6478ced607" configVersion="6a98a95b504d574795822335855d85b800000000"/>
+		<Metadata name="Catalog.Напитки.Form.ФормаЭлемента.Form" id="53518fad-6e6e-451e-832d-6a6478ced607.0" configVersion="2a7115b5659b1943be8420d1b3213e2100000000"/>
 		<Metadata name="Catalog.Номенклатура" id="74a94f81-2c6a-40d6-94b8-a5c3efbd9f6a" configVersion="94a1c7d58edb8b4799f593eef514bdb400000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.СрокГодностиДней" id="1155f6fd-d6d8-4b40-a236-5d5737c18492"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.МинимальныйОстатокНаСкладе" id="6592f345-530b-43ab-93e5-6f33a4d378ba"/>
@@ -73,7 +75,7 @@
 		<Metadata name="CommonModule.ВендингПривилегированный" id="fddef74d-f799-42fb-8e6d-f4cd3cdbdbfc" configVersion="8ede8c65e641164b8182de5d4851abdf00000000"/>
 		<Metadata name="CommonModule.ВендингСервер" id="5e978f38-e417-4703-80bd-67be9fe77ada" configVersion="b97b488740cb3f48b177484eb55b6e3d00000000"/>
 		<Metadata name="CommonModule.ВендингСервер.Module" id="5e978f38-e417-4703-80bd-67be9fe77ada.0" configVersion="7e347d2bd37d554f884d7377aac20d2d00000000"/>
-		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="649331c0d5e7cf4991d2d4142f85678a00000000"/>
+		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="27e2b6d6161c764eb54d0718741b79fd00000000"/>
 		<Metadata name="Configuration.ВендингОператор.CommandInterface" id="da2ca6a7-4a39-4b1a-8ac7-77ea61cc9293.a" configVersion="f8b0e2caa2104a40ba4d8fb6f03645b100000000"/>
 		<Metadata name="Constant.ДопустимоеОтклонениеИнвентаризацииПроцент" id="960efc76-3489-46cf-807a-ecd56d7ddeed" configVersion="aede08d4baf5014ba95eaf3a214adc9e00000000"/>
 		<Metadata name="Constant.ИспользоватьБезналичнуюОплату" id="562f80fa-b58c-49e0-909e-4aacd13eb2b7" configVersion="4a7f8c1fbf834142a206dfe9207f08f500000000"/>
@@ -121,11 +123,16 @@
 			<Metadata name="Enum.ТипыБункеров.EnumValue.Порошковый" id="ee62d724-8769-41a0-8710-ce60641cc226"/>
 		</Metadata>
 		<Metadata name="EventSubscription.УстановкаОтветственного" id="56ac0e41-b6a8-49a2-adf0-659229b0e221" configVersion="3b83c36f07c938469bea2d8e07f20c7700000000"/>
+		<Metadata name="InformationRegister.Рецептуры" id="fab7269f-5f58-41b6-969d-9b025fd452a7" configVersion="24e1d6fef364a74e95c37c7dee9d59d600000000">
+			<Metadata name="InformationRegister.Рецептуры.Dimension.Напиток" id="0716aa58-a340-4447-9912-180695102b50"/>
+			<Metadata name="InformationRegister.Рецептуры.Dimension.Ингредиент" id="3fc064c8-c813-410b-b7db-b8a15b6dfbb7"/>
+			<Metadata name="InformationRegister.Рецептуры.Resource.Норма" id="4bd4f544-267d-4d8e-89a1-c2bbbb218bab"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="87d20b7a-5b6f-4a64-b053-448b51cd2bd6" configVersion="a299007a6f9e874cb1a9dd6c4e4def3400000000"/>
 		<Metadata name="Subsystem.Администрирование" id="b8166754-10dd-4703-980a-e8a31fd8da74" configVersion="fec3b7c6b26c404d91ce3a0061bac5fd00000000"/>
 		<Metadata name="Subsystem.Деньги" id="2f838e6a-f724-43b0-8649-d85cb66e7ef7" configVersion="741eb19550d3d44eb31e0b29c808278000000000"/>
 		<Metadata name="Subsystem.Логистика" id="ef73e555-e30b-4f37-bfab-be6b7092e569" configVersion="61cd4b65e272ba4eaa6701f45257ff3400000000"/>
-		<Metadata name="Subsystem.НСИ" id="9b921e25-148a-4d3c-b2da-23f839970bda" configVersion="d98ec08932549748afa76aed0d8dd79100000000"/>
+		<Metadata name="Subsystem.НСИ" id="9b921e25-148a-4d3c-b2da-23f839970bda" configVersion="d7dc059ee6a51a4486d8d0f1755b6da900000000"/>
 		<Metadata name="Subsystem.Отчеты" id="d9ef46dc-fe40-4663-9594-c3191b8df5cf" configVersion="d0eb2ddd5773d4408dfbe341e991877500000000"/>
 		<Metadata name="Subsystem.Продажи" id="04c0ee7f-9edd-495a-8c26-21b3f5615fc6" configVersion="2fab13a49349d941b3726233a51087e200000000"/>
 		<Metadata name="Subsystem.Сервис" id="fd3ec8fd-a33f-4f0a-90fc-64d230d85e09" configVersion="341f4f5055d44f4a8c51cea29421a68100000000"/>

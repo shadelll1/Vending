@@ -1,107 +1,84 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="1fe2e6f9-677c-434d-a797-4df23e1e1049">
+	<InformationRegister uuid="fab7269f-5f58-41b6-969d-9b025fd452a7">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Напитки" category="Object">
-				<xr:TypeId>f373a883-080c-494e-833a-215fe54c0153</xr:TypeId>
-				<xr:ValueId>dc610937-44a4-4aec-9fe6-2a3b6eea4674</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.Рецептуры" category="Record">
+				<xr:TypeId>31b2ccd8-d5c2-4345-b6c0-0d12e1735e7a</xr:TypeId>
+				<xr:ValueId>1c6a1a36-c40f-4009-808b-59c519208795</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Напитки" category="Ref">
-				<xr:TypeId>19937dc4-680a-4038-a424-e33a5cbfae9d</xr:TypeId>
-				<xr:ValueId>d6d8220a-9fd9-4e88-82f9-f0f83f905c9e</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.Рецептуры" category="Manager">
+				<xr:TypeId>65161a52-3d35-4107-9ac0-682a9b7c7c8a</xr:TypeId>
+				<xr:ValueId>96d3a9a1-a36c-43df-868e-59f731065ef1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Напитки" category="Selection">
-				<xr:TypeId>342b1379-9c2e-4a72-be07-4a3211ff99b8</xr:TypeId>
-				<xr:ValueId>9a4be9fe-8ca9-46c8-91f5-8b6ad87bf43a</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.Рецептуры" category="Selection">
+				<xr:TypeId>a36e2121-296a-48b9-a29f-dfceb6d317f0</xr:TypeId>
+				<xr:ValueId>af8e99d8-af16-4c13-bb3e-6c0fda28c1dd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Напитки" category="List">
-				<xr:TypeId>ba9b41fc-a641-4665-a829-8d34dfa76fdc</xr:TypeId>
-				<xr:ValueId>cde14de2-1349-4fe8-9d44-d685f9b15d82</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.Рецептуры" category="List">
+				<xr:TypeId>2792c95e-7eac-405b-b938-cdd05ff3fd5c</xr:TypeId>
+				<xr:ValueId>e3edf901-e318-499c-af50-d45946e35b8c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Напитки" category="Manager">
-				<xr:TypeId>13686fb1-5de7-46c0-8df5-793741e47668</xr:TypeId>
-				<xr:ValueId>9ae17288-622b-42ee-a337-735938860de0</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.Рецептуры" category="RecordSet">
+				<xr:TypeId>fba7559c-ac36-424d-93fd-2d7cb91bfa60</xr:TypeId>
+				<xr:ValueId>2bbd506a-dea2-426a-9b9a-998079530ce4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.Рецептуры" category="RecordKey">
+				<xr:TypeId>61c0e43e-bbe3-4079-a9a9-e9e1dfff8250</xr:TypeId>
+				<xr:ValueId>9a508df7-dda1-41f2-91b0-26bb4ff42aa6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.Рецептуры" category="RecordManager">
+				<xr:TypeId>0cf9b667-9bc2-481d-a9d1-561c739c1bff</xr:TypeId>
+				<xr:ValueId>fc83845e-8416-4542-b808-5f7c4c37ea7b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Напитки</Name>
+			<Name>Рецептуры</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Напитки</v8:content>
+					<v8:content>Рецептуры</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
-			<DefaultPresentation>AsDescription</DefaultPresentation>
-			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
-			<QuickChoice>false</QuickChoice>
-			<ChoiceMode>BothWays</ChoiceMode>
-			<InputByString>
-				<xr:Field>Catalog.Напитки.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Напитки.StandardAttribute.Code</xr:Field>
-			</InputByString>
-			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Напитки.Form.ФормаЭлемента</DefaultObjectForm>
-			<DefaultFolderForm/>
+			<DefaultRecordForm/>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
-			<DefaultFolderChoiceForm/>
-			<AuxiliaryObjectForm/>
-			<AuxiliaryFolderForm/>
+			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<AuxiliaryChoiceForm/>
-			<AuxiliaryFolderChoiceForm/>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>true</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<BasedOn/>
-			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
-			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
-			<ExtendedObjectPresentation/>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a9d3995f-c2a0-45fc-9b56-eb571ad83d87">
+			<Resource uuid="4bd4f544-267d-4d8e-89a1-c2bbbb218bab">
 				<Properties>
-					<Name>Объем</Name>
+					<Name>Норма</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Объем</v8:content>
+							<v8:content>Норма</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
+					<Comment>Расход на 1 порцию</Comment>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>4</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:Digits>8</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -126,24 +103,23 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Attribute>
-			<Attribute uuid="c172b45f-690a-425d-950a-245a71cc651c">
+			</Resource>
+			<Dimension uuid="0716aa58-a340-4447-9912-180695102b50">
 				<Properties>
-					<Name>Категория</Name>
+					<Name>Напиток</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Категория</v8:content>
+							<v8:content>Напиток</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.КатегорияНапитков</v8:Type>
+						<v8:Type>cfg:CatalogRef.Напитки</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -155,7 +131,7 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -166,29 +142,27 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Attribute>
-			<Attribute uuid="7431dd1e-016a-4c07-8e4f-d5e0e6675176">
+			</Dimension>
+			<Dimension uuid="3fc064c8-c813-410b-b7db-b8a15b6dfbb7">
 				<Properties>
-					<Name>КодНаАвтомате</Name>
+					<Name>Ингредиент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Код на автомате</v8:content>
+							<v8:content>Ингредиент</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>3</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -200,7 +174,7 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillFromFillingValue>true</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -211,13 +185,15 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Attribute>
-			<Form>ФормаЭлемента</Form>
+			</Dimension>
 		</ChildObjects>
-	</Catalog>
+	</InformationRegister>
 </MetaDataObject>

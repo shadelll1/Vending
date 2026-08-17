@@ -298,6 +298,7 @@
 			<Enum>ВидыСервисныхРабот</Enum>
 			<Enum>КатегорияНапитков</Enum>
 			<Enum>МодельАвтоматов</Enum>
+			<InformationRegister>Рецептуры</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
