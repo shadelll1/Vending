@@ -291,6 +291,8 @@
 			<Catalog>Напитки</Catalog>
 			<Catalog>Автоматы</Catalog>
 			<Catalog>МодельАвтоматов</Catalog>
+			<Catalog>ЗначенияСвойств</Catalog>
+			<Document>УстановкаЦенНапитков</Document>
 			<Enum>СостоянияАвтоматов</Enum>
 			<Enum>ЕдиницыХранения</Enum>
 			<Enum>ТипыБункеров</Enum>
@@ -299,6 +301,10 @@
 			<Enum>КатегорияНапитков</Enum>
 			<Enum>МодельАвтоматов</Enum>
 			<InformationRegister>Рецептуры</InformationRegister>
+			<InformationRegister>ЦеныНапитков</InformationRegister>
+			<InformationRegister>ПоказанияСчетчиков</InformationRegister>
+			<InformationRegister>ЗначениеСвойствНоменклатуры</InformationRegister>
+			<ChartOfCharacteristicTypes>СвойстваНоменклатуры</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

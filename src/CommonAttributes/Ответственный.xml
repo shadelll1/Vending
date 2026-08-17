@@ -34,7 +34,13 @@
 			<ChoiceForm/>
 			<LinkByType/>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-			<Content/>
+			<Content>
+				<xr:Item>
+					<xr:Metadata>Document.УстановкаЦенНапитков</xr:Metadata>
+					<xr:Use>Use</xr:Use>
+					<xr:ConditionalSeparation/>
+				</xr:Item>
+			</Content>
 			<AutoUse>DontUse</AutoUse>
 			<DataSeparation>DontUse</DataSeparation>
 			<SeparatedDataUse>Independently</SeparatedDataUse>
