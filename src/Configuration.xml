@@ -294,8 +294,8 @@
 			<Catalog>ЗначенияСвойств</Catalog>
 			<Document>УстановкаЦенНапитков</Document>
 			<Document>ПоступлениеИнгредиентов</Document>
-			<Document>Заглушка</Document>
 			<Document>ЗагрузкаАвтомата</Document>
+			<Document>ОтчетАвтомата</Document>
 			<Enum>СостоянияАвтоматов</Enum>
 			<Enum>ЕдиницыХранения</Enum>
 			<Enum>ТипыБункеров</Enum>
@@ -309,6 +309,8 @@
 			<InformationRegister>ЗначениеСвойствНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиНаСкладе</AccumulationRegister>
 			<AccumulationRegister>ОстаткиВАвтоматах</AccumulationRegister>
+			<AccumulationRegister>ПродажиНапитков</AccumulationRegister>
+			<AccumulationRegister>ДенежныеСредства</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваНоменклатуры</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>

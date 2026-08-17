@@ -11,6 +11,10 @@
 			</Synonym>
 			<Comment/>
 			<Source>
+				<v8:Type>cfg:DocumentObject.ОтчетАвтомата</v8:Type>
+				<v8:Type>cfg:DocumentObject.УстановкаЦенНапитков</v8:Type>
+				<v8:Type>cfg:DocumentObject.ЗагрузкаАвтомата</v8:Type>
+				<v8:Type>cfg:DocumentObject.ПоступлениеИнгредиентов</v8:Type>
 				<v8:TypeSet>cfg:DocumentObject</v8:TypeSet>
 			</Source>
 			<Event>BeforeWrite</Event>

@@ -19,7 +19,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Напитки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНапитков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныНапитков</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.Заглушка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">fe356b97-e080-4caf-bba0-ce55263512fe</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПродажиНапитков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтчетАвтомата</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

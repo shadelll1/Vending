@@ -23,9 +23,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПоказанияСчетчиков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНаСкладе</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеИнгредиентов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.Заглушка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">fe356b97-e080-4caf-bba0-ce55263512fe</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиВАвтоматах</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗагрузкаАвтомата</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтчетАвтомата</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

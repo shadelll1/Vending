@@ -36,6 +36,11 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<Content>
 				<xr:Item>
+					<xr:Metadata>Document.ОтчетАвтомата</xr:Metadata>
+					<xr:Use>Use</xr:Use>
+					<xr:ConditionalSeparation/>
+				</xr:Item>
+				<xr:Item>
 					<xr:Metadata>Document.ЗагрузкаАвтомата</xr:Metadata>
 					<xr:Use>Use</xr:Use>
 					<xr:ConditionalSeparation/>
