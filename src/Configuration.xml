@@ -273,6 +273,15 @@
 			<CommonModule>ВендингКлиентСервер</CommonModule>
 			<CommonModule>ВендингПривилегированный</CommonModule>
 			<CommonModule>ВендингПовтИсп</CommonModule>
+			<CommonAttribute>Ответственный</CommonAttribute>
+			<EventSubscription>УстановкаОтветственного</EventSubscription>
+			<CommonCommand>НастройкиПрограммы</CommonCommand>
+			<Constant>НазваниеКомпании</Constant>
+			<Constant>ОсновнойСклад</Constant>
+			<Constant>КонтролироватьОстатки</Constant>
+			<Constant>ДопустимоеОтклонениеИнвентаризацииПроцент</Constant>
+			<Constant>ИспользоватьБезналичнуюОплату</Constant>
+			<CommonForm>НастройкиПрограммы</CommonForm>
 			<Catalog>Локации</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
