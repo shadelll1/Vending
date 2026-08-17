@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="34a7fb5f-ee7c-4805-9996-bd71466948fa">
+	<Catalog uuid="419ec1df-2638-4f31-9482-d742c81fe42b">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Локации" category="Object">
-				<xr:TypeId>caf3b9ba-1602-46f6-9cae-4c49a4176361</xr:TypeId>
-				<xr:ValueId>e6221a5f-53ae-4ff5-92c5-2322b6fb942a</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
+				<xr:TypeId>7fc974a2-79f5-43da-aad0-592253102c96</xr:TypeId>
+				<xr:ValueId>80a7ce03-283b-4a9a-99ee-4f9a71a7621a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Локации" category="Ref">
-				<xr:TypeId>724f0cf9-8096-4393-80d6-2a21ce155e41</xr:TypeId>
-				<xr:ValueId>ebe5d364-5569-4fbe-adbb-7664ba38af62</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
+				<xr:TypeId>1e6f8b57-ed3f-4885-b0d3-0300d3cd5a8a</xr:TypeId>
+				<xr:ValueId>3aee81ff-7a1a-4990-a424-8569b6d5453f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Локации" category="Selection">
-				<xr:TypeId>c174101a-8c92-4849-9e19-78d83c0cd6c2</xr:TypeId>
-				<xr:ValueId>3ca9d96a-c006-40da-ab65-2c64942f39fc</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
+				<xr:TypeId>ba82ae4f-1393-4eb4-b373-be1d039148e0</xr:TypeId>
+				<xr:ValueId>c753d7a0-c48e-4e85-a78d-8e0de5d855ba</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Локации" category="List">
-				<xr:TypeId>42128feb-fec5-4758-a4e7-49ed1aac43ef</xr:TypeId>
-				<xr:ValueId>a0a27508-ce77-451a-8a3f-d8e0b803361a</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
+				<xr:TypeId>a4f1e06e-861a-491c-8761-57c5ea99f26c</xr:TypeId>
+				<xr:ValueId>de009f1d-efe1-4397-9c21-261be5343277</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Локации" category="Manager">
-				<xr:TypeId>adf548ce-053f-4874-8c9c-4e4f260e2e1a</xr:TypeId>
-				<xr:ValueId>749bb03c-9c2e-4872-b15f-edb192eb81ad</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
+				<xr:TypeId>c08a5225-0cbd-4f1e-a910-e72bab160dca</xr:TypeId>
+				<xr:ValueId>0336c61a-070a-4702-9b5a-e16e2de2881f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Локации</Name>
+			<Name>Контрагенты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Локации</v8:content>
+					<v8:content>Контрагенты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>true</LimitLevelCount>
-			<LevelCount>3</LevelCount>
+			<LimitLevelCount>false</LimitLevelCount>
+			<LevelCount>2</LevelCount>
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Локации.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Локации.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Контрагенты.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Контрагенты.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -87,20 +87,20 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="bf880afa-bcab-4920-ac1c-507ff42c864d">
+			<Attribute uuid="cc48bcb4-868d-4d23-8efc-80eaf99ada0c">
 				<Properties>
-					<Name>Адрес</Name>
+					<Name>ИНН</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Адрес</v8:content>
+							<v8:content>ИНН</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>200</v8:Length>
+							<v8:Length>12</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -131,22 +131,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4c8ad135-2f22-4f80-bbcd-16d378a607af">
+			<Attribute uuid="856b1029-243b-4e23-9baf-1878d14afb12">
 				<Properties>
-					<Name>КонтактноеЛицо</Name>
+					<Name>ЭтоПоставщик</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контактное лицо</v8:content>
+							<v8:content>Это поставщик</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -159,7 +155,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -175,106 +171,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="76964f3c-9cdd-4be8-bfb2-821c9b4c4f37">
+			<Attribute uuid="c1db9abd-f59f-46d1-a72f-434ca9906cf6">
 				<Properties>
-					<Name>Телефон</Name>
+					<Name>ЭтоАрендодатель</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Телефон</v8:content>
+							<v8:content>Это арендодатель</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="86149763-3b41-45b7-97ef-539b938f7c57">
-				<Properties>
-					<Name>ГрафикДоступа</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>График доступа</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="1f5d1494-3e48-4f46-8e83-c3f4d3f93555">
-				<Properties>
-					<Name>Арендодатель</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Арендодатель</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

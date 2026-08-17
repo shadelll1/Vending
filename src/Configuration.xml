@@ -274,11 +274,21 @@
 			<CommonModule>ВендингПривилегированный</CommonModule>
 			<CommonModule>ВендингПовтИсп</CommonModule>
 			<Catalog>Локации</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>Кассы</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>Напитки</Catalog>
+			<Catalog>Автоматы</Catalog>
+			<Catalog>МодельАвтоматов</Catalog>
 			<Enum>СостоянияАвтоматов</Enum>
 			<Enum>ЕдиницыХранения</Enum>
 			<Enum>ТипыБункеров</Enum>
 			<Enum>ПричиныСписания</Enum>
 			<Enum>ВидыСервисныхРабот</Enum>
+			<Enum>КатегорияНапитков</Enum>
+			<Enum>МодельАвтоматов</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

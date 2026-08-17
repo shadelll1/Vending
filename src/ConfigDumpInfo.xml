@@ -1,11 +1,65 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Локации" id="34a7fb5f-ee7c-4805-9996-bd71466948fa" configVersion="fe0c77ee919f9042911b3082394c889200000000">
+		<Metadata name="Catalog.Автоматы" id="44ba96c3-f335-4b3e-b87a-3fed6d98804a" configVersion="1f07a2fefb13c44481ac39fc4742417100000000">
+			<Metadata name="Catalog.Автоматы.Attribute.Локация" id="4c465413-d1d8-42df-b376-b06443ee0972"/>
+			<Metadata name="Catalog.Автоматы.TabularSection.Бункеры.Attribute.Номенклатура" id="5ac33deb-bfa1-4ba1-9270-2991b971f232"/>
+			<Metadata name="Catalog.Автоматы.Attribute.ЕстьБезнал" id="5f81530e-366f-4845-b25e-eda99021f985"/>
+			<Metadata name="Catalog.Автоматы.Attribute.СерийныйНомер" id="672d99c3-0080-4411-83fc-a33b351189d4"/>
+			<Metadata name="Catalog.Автоматы.Attribute.Модель" id="69908153-7158-4628-82bf-5201df291113"/>
+			<Metadata name="Catalog.Автоматы.TabularSection.Бункеры.Attribute.Вместимость" id="79f85776-e059-4b97-ac8d-ce3a2f0aa404"/>
+			<Metadata name="Catalog.Автоматы.TabularSection.Бункеры" id="7b6ad16a-112f-4b24-a058-0d620ce36af2"/>
+			<Metadata name="Catalog.Автоматы.TabularSection.Бункеры.Attribute.НомерБункера" id="a79e24b2-4f2e-4be3-9391-ae5894e9bdf6"/>
+			<Metadata name="Catalog.Автоматы.Attribute.Состояние" id="e55ad374-faf6-4c4c-a3d0-c84e50419f5b"/>
+			<Metadata name="Catalog.Автоматы.Attribute.ДатаУстановки" id="e6413078-3f91-496d-b078-2b5cbba83d1e"/>
+			<Metadata name="Catalog.Автоматы.Attribute.ОтветственныйОператор" id="f68a8b7f-0b90-429c-9649-6f2706a73960"/>
+			<Metadata name="Catalog.Автоматы.TabularSection.Бункеры.Attribute.Тип" id="ffefe78b-f4a8-458d-9747-7dbcbdf2a41e"/>
+		</Metadata>
+		<Metadata name="Catalog.Автоматы.ObjectModule" id="44ba96c3-f335-4b3e-b87a-3fed6d98804a.0" configVersion="1f4290f585bde8459a2533b6ef6b448600000000"/>
+		<Metadata name="Catalog.Кассы" id="7706838b-1336-454c-ba2d-c3dc49c01681" configVersion="77f6c1639f3640429ace752192160b9500000000">
+			<Metadata name="Catalog.Кассы.Attribute.ОтветственныйКассир" id="b9149e81-fcc2-4867-8a98-2e5855c82488"/>
+		</Metadata>
+		<Metadata name="Catalog.Кассы.Predefined" id="7706838b-1336-454c-ba2d-c3dc49c01681.1c" configVersion="b24e0c1779b4e04baf1181b9d4318c8200000000"/>
+		<Metadata name="Catalog.Контрагенты" id="419ec1df-2638-4f31-9482-d742c81fe42b" configVersion="72e3c3298a23064a98f04144250c9ad700000000">
+			<Metadata name="Catalog.Контрагенты.Attribute.ЭтоПоставщик" id="856b1029-243b-4e23-9baf-1878d14afb12"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ЭтоАрендодатель" id="c1db9abd-f59f-46d1-a72f-434ca9906cf6"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="cc48bcb4-868d-4d23-8efc-80eaf99ada0c"/>
+		</Metadata>
+		<Metadata name="Catalog.Локации" id="34a7fb5f-ee7c-4805-9996-bd71466948fa" configVersion="3c015790a9f7224f872b234202c8348000000000">
+			<Metadata name="Catalog.Локации.Attribute.Арендодатель" id="1f5d1494-3e48-4f46-8e83-c3f4d3f93555"/>
 			<Metadata name="Catalog.Локации.Attribute.КонтактноеЛицо" id="4c8ad135-2f22-4f80-bbcd-16d378a607af"/>
 			<Metadata name="Catalog.Локации.Attribute.Телефон" id="76964f3c-9cdd-4be8-bfb2-821c9b4c4f37"/>
 			<Metadata name="Catalog.Локации.Attribute.ГрафикДоступа" id="86149763-3b41-45b7-97ef-539b938f7c57"/>
 			<Metadata name="Catalog.Локации.Attribute.Адрес" id="bf880afa-bcab-4920-ac1c-507ff42c864d"/>
+		</Metadata>
+		<Metadata name="Catalog.МодельАвтоматов" id="f2555c94-d51d-424b-8a15-febc2ab4ef6b" configVersion="787dc7f6ebefe542825435b83f058bb900000000">
+			<Metadata name="Catalog.МодельАвтоматов.Attribute.КоличествоБункеров" id="556241bd-009d-4d40-8a46-b8a4d4bcf131"/>
+			<Metadata name="Catalog.МодельАвтоматов.Attribute.Производитель" id="91320e30-9055-4adc-a9d2-328766249ace"/>
+			<Metadata name="Catalog.МодельАвтоматов.Attribute.ПоддержкаБезнала" id="f7d3ef45-e27d-426b-88ba-206dd0c33cc8"/>
+		</Metadata>
+		<Metadata name="Catalog.Напитки" id="1fe2e6f9-677c-434d-a797-4df23e1e1049" configVersion="40556a12134ef24885b6428b7df284a400000000">
+			<Metadata name="Catalog.Напитки.Attribute.КодНаАвтомате" id="7431dd1e-016a-4c07-8e4f-d5e0e6675176"/>
+			<Metadata name="Catalog.Напитки.Attribute.Объем" id="a9d3995f-c2a0-45fc-9b56-eb571ad83d87"/>
+			<Metadata name="Catalog.Напитки.Attribute.Категория" id="c172b45f-690a-425d-950a-245a71cc651c"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура" id="74a94f81-2c6a-40d6-94b8-a5c3efbd9f6a" configVersion="94a1c7d58edb8b4799f593eef514bdb400000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.СрокГодностиДней" id="1155f6fd-d6d8-4b40-a236-5d5737c18492"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.МинимальныйОстатокНаСкладе" id="6592f345-530b-43ab-93e5-6f33a4d378ba"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаХранения" id="65e33360-eb95-47e9-901d-b4f9ea1e24a9"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.Артикул" id="6edbd5b1-e9e4-4fe6-ab2d-39f2663db5ee"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.Поставщик" id="c33fa25b-9012-4168-b803-5d9f149f2021"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="4b22584b-4a8a-4716-af24-0c205a98a2e1" configVersion="1f131446547b3d4b9af8f2233b74fd0100000000"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="4b22584b-4a8a-4716-af24-0c205a98a2e1.0" configVersion="2b3a5a5592dfeb4cb6dc167c61cd75b500000000"/>
+		<Metadata name="Catalog.Номенклатура.Predefined" id="74a94f81-2c6a-40d6-94b8-a5c3efbd9f6a.1c" configVersion="164fc17d14e86a4aa7e48683691ded5f00000000"/>
+		<Metadata name="Catalog.Склады" id="160f2fd3-7e9d-4c52-b6ca-05dc45658323" configVersion="b52d92801eae77489a5d7db016f117f600000000">
+			<Metadata name="Catalog.Склады.Attribute.Ответственный" id="1869b05f-fa56-4dd8-8312-6c7c12d2bf96"/>
+			<Metadata name="Catalog.Склады.Attribute.Адрес" id="5851cc2f-bc07-41b9-90cb-8545c3e43d3c"/>
+		</Metadata>
+		<Metadata name="Catalog.Склады.Predefined" id="160f2fd3-7e9d-4c52-b6ca-05dc45658323.1c" configVersion="91f7e07017b4ba48a29c3b9d13884cee00000000"/>
+		<Metadata name="Catalog.Сотрудники" id="b52e593a-659e-4699-888b-bc17e7a8ef34" configVersion="ab840bcc8467ca4f8324a2bb3d60018700000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="0fa916d1-c3b9-443d-a83c-c85f64796c0f"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Телефон" id="47fe0d72-f8ed-4b63-a56c-fece8da4e0d8"/>
 		</Metadata>
 		<Metadata name="CommonModule.ВендингВызовСервера" id="cc40c89a-af6a-41ed-ab36-3420e5dd908c" configVersion="47c050ab1aae564a8bc8a99983737ddf00000000"/>
 		<Metadata name="CommonModule.ВендингКлиент" id="a111a787-2cfa-4992-a94a-ee0255e1ba02" configVersion="f97acd9410372e479cf89f80bdcb71e300000000"/>
@@ -13,7 +67,7 @@
 		<Metadata name="CommonModule.ВендингПовтИсп" id="fcb7db72-841c-4cb5-a7ae-611c5deea0ec" configVersion="4946cf94b9be664999767274aab8a5ca00000000"/>
 		<Metadata name="CommonModule.ВендингПривилегированный" id="fddef74d-f799-42fb-8e6d-f4cd3cdbdbfc" configVersion="8ede8c65e641164b8182de5d4851abdf00000000"/>
 		<Metadata name="CommonModule.ВендингСервер" id="5e978f38-e417-4703-80bd-67be9fe77ada" configVersion="9b65238921eee0499bd7b8dda0b6a1c700000000"/>
-		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="f51e4dc1e153654fb25d9ff07037b4f100000000"/>
+		<Metadata name="Configuration.ВендингОператор" id="a7a01c86-81e3-4d07-8120-0a6350632f04" configVersion="fef22b3c29ab874d8d6ae208a304cba100000000"/>
 		<Metadata name="Configuration.ВендингОператор.CommandInterface" id="da2ca6a7-4a39-4b1a-8ac7-77ea61cc9293.a" configVersion="f8b0e2caa2104a40ba4d8fb6f03645b100000000"/>
 		<Metadata name="Enum.ВидыСервисныхРабот" id="5880cfc8-8f32-426e-9aae-a5d26221f6ce" configVersion="0443836d89958e44b5f7220fc8daf86600000000">
 			<Metadata name="Enum.ВидыСервисныхРабот.EnumValue.ПлановоеТО" id="44a94bbb-3e91-4e4a-847c-0c48eddf6f0c"/>
@@ -25,6 +79,17 @@
 			<Metadata name="Enum.ЕдиницыХранения.EnumValue.Грамм" id="3f5cc50f-4825-4c57-9a32-dff29e80291e"/>
 			<Metadata name="Enum.ЕдиницыХранения.EnumValue.Миллилитр" id="682cc2a1-6307-46f1-ad1d-4e22a2bf1f32"/>
 			<Metadata name="Enum.ЕдиницыХранения.EnumValue.Штука" id="88035b86-4d21-42ea-af82-9a914e15b745"/>
+		</Metadata>
+		<Metadata name="Enum.КатегорияНапитков" id="750f28b9-2953-472f-9248-57fa328d77e7" configVersion="50b8890c50a13646b480b3d899bff6bb00000000">
+			<Metadata name="Enum.КатегорияНапитков.EnumValue.Кофе" id="18bc7ed2-bef3-4ddf-9555-37d2be5ff860"/>
+			<Metadata name="Enum.КатегорияНапитков.EnumValue.Вода" id="5798dfe3-fcd4-427e-b2f9-c834f8df7fe9"/>
+			<Metadata name="Enum.КатегорияНапитков.EnumValue.Чай" id="c88a8adb-c289-4c67-8263-4bf3db92d3ba"/>
+			<Metadata name="Enum.КатегорияНапитков.EnumValue.Какао" id="cf07fa28-b8d0-4a59-9d42-b0fe45be93e5"/>
+		</Metadata>
+		<Metadata name="Enum.МодельАвтоматов" id="e015c900-8d72-4f83-8188-dca442ef74ce" configVersion="8e47570c462d3840b80d8f0836a508ed00000000">
+			<Metadata name="Enum.МодельАвтоматов.EnumValue.ТР_05" id="3c8e2844-ef13-4354-8512-7bc0aa5fb99f"/>
+			<Metadata name="Enum.МодельАвтоматов.EnumValue.ТТ_15" id="59961817-66cf-41a1-aab8-098fb3b1dbe5"/>
+			<Metadata name="Enum.МодельАвтоматов.EnumValue.БС_32" id="eea62d1b-f283-45db-b728-9d6b11122f5b"/>
 		</Metadata>
 		<Metadata name="Enum.ПричиныСписания" id="12557923-ee20-439d-97aa-8449b4302b41" configVersion="012eecf5e5c02c4299c18dabc47aa83f00000000">
 			<Metadata name="Enum.ПричиныСписания.EnumValue.СбойОборудования" id="683b9f8d-47b1-4e48-b1e8-0b058cdf470a"/>
@@ -47,10 +112,10 @@
 		<Metadata name="Language.Русский" id="87d20b7a-5b6f-4a64-b053-448b51cd2bd6" configVersion="a299007a6f9e874cb1a9dd6c4e4def3400000000"/>
 		<Metadata name="Subsystem.Администрирование" id="b8166754-10dd-4703-980a-e8a31fd8da74" configVersion="1d9c3edd95479f4199ef15a709e1997900000000"/>
 		<Metadata name="Subsystem.Деньги" id="2f838e6a-f724-43b0-8649-d85cb66e7ef7" configVersion="741eb19550d3d44eb31e0b29c808278000000000"/>
-		<Metadata name="Subsystem.Логистика" id="ef73e555-e30b-4f37-bfab-be6b7092e569" configVersion="733754ec2e9a224284187d4a2a1f6a2a00000000"/>
-		<Metadata name="Subsystem.НСИ" id="9b921e25-148a-4d3c-b2da-23f839970bda" configVersion="9f4616df026c944087869c93878115e300000000"/>
+		<Metadata name="Subsystem.Логистика" id="ef73e555-e30b-4f37-bfab-be6b7092e569" configVersion="61cd4b65e272ba4eaa6701f45257ff3400000000"/>
+		<Metadata name="Subsystem.НСИ" id="9b921e25-148a-4d3c-b2da-23f839970bda" configVersion="d98ec08932549748afa76aed0d8dd79100000000"/>
 		<Metadata name="Subsystem.Отчеты" id="d9ef46dc-fe40-4663-9594-c3191b8df5cf" configVersion="d0eb2ddd5773d4408dfbe341e991877500000000"/>
-		<Metadata name="Subsystem.Продажи" id="04c0ee7f-9edd-495a-8c26-21b3f5615fc6" configVersion="4a808eec6211e441a7655e31f01438c300000000"/>
+		<Metadata name="Subsystem.Продажи" id="04c0ee7f-9edd-495a-8c26-21b3f5615fc6" configVersion="2fab13a49349d941b3726233a51087e200000000"/>
 		<Metadata name="Subsystem.Сервис" id="fd3ec8fd-a33f-4f0a-90fc-64d230d85e09" configVersion="341f4f5055d44f4a8c51cea29421a68100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
